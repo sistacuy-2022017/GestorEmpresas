@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "EnterpriseEmpresasCollection",
+    "dateExported": "2024-03-03T07:21:30.013Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "774dc5f4-acb9-4a13-bc2b-2eed50e8cc6a",
+            "colId": "b678e9ab-7668-420a-b2ea-ad5b9069a08c",
+            "containerId": "",
+            "name": "EnterprisePost",
+            "url": "http://localhost:3000/EnterpriseApi/v1/enterprise",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T03:44:13.362Z",
+            "modified": "2024-03-03T07:20:17.615Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameEnterprise\": \"Acdrueba50\",\n  \"levelImpact\": \"Bajito\",\n  \"experienceYear\": 7,\n  \"categoryEnterprise\": \"Otro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "930b1dd1-5c02-4618-ac5b-e01ce5af734d",
+            "colId": "b678e9ab-7668-420a-b2ea-ad5b9069a08c",
+            "containerId": "",
+            "name": "EnterprisePut",
+            "url": "http://localhost:3000/EnterpriseApi/v1/enterprise/65e411c7ea1077da3f1d2c53",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T04:23:41.303Z",
+            "modified": "2024-03-03T06:49:23.988Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameEnterprise\": \"Asturiano48\",\n  \"categoryEnterprise\": \"Salud\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5c3ad60c-40df-449b-a53f-41979886a6cf",
+            "colId": "b678e9ab-7668-420a-b2ea-ad5b9069a08c",
+            "containerId": "",
+            "name": "getEnterprise",
+            "url": "http://localhost:3000/EnterpriseApi/v1/enterprise/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-03T05:36:46.417Z",
+            "modified": "2024-03-03T07:02:05.241Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e1b8dbed-76be-4e57-a413-6423b9c9a70d",
+            "colId": "b678e9ab-7668-420a-b2ea-ad5b9069a08c",
+            "containerId": "",
+            "name": "getReportExc",
+            "url": "http://localhost:3000/EnterpriseApi/v1/report",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T07:00:16.176Z",
+            "modified": "2024-03-03T07:00:26.077Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

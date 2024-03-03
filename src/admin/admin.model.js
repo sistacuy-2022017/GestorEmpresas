@@ -19,10 +19,10 @@ const AdministratorSchema = mongoose.Schema({
     },
 });
 
-/*AdministratorSchema.methods.toJSON = function (){
+AdministratorSchema.methods.toJSON = function (){
     const { __v, passwordAdmin, _id, ...admin } = this.toObject();
     admin.uid = _id;
     return admin;
-};*/
+};
 
 export default mongoose.model('Admin', AdministratorSchema);

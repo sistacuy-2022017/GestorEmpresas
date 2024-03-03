@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AdminEmpresasCollection",
+    "dateExported": "2024-03-03T07:21:10.383Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "07376f30-655c-464a-8909-4f50d8844fe5",
+            "colId": "44e42857-02c6-432a-82fe-0b6790beaf57",
+            "containerId": "",
+            "name": "AdminPost",
+            "url": "http://localhost:3000/EnterpriseApi/v1/admin",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T00:13:46.275Z",
+            "modified": "2024-03-03T00:20:59.626Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameAdmin\": \"Pedro Lopez\",\n  \"emailAdmin\": \"plopez-2019280@kinal.org.gt\",\n  \"passwordAdmin\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
