@@ -1,6 +1,7 @@
 import { response, request } from 'express';
 import user from '../admin/admin.model.js';
 import bcryptjs from 'bcryptjs';
+import { generarJWT } from '../helpers/generar-jwt.js';
 
 export const login = async (req = request, res = response) => {
     const { emailAdmin, passwordAdmin } = req.body;
@@ -32,9 +33,12 @@ export const login = async (req = request, res = response) => {
                 });
             }
 
+            const token = await generarJWT(userData.id);
+
             return res.status(200).json({
                 msg: 'Bienvenido al sistema insano:D',
-                userData
+                userData,
+                token
             })
 
         }
