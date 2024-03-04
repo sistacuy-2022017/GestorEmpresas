@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65e3c30d10194cf4f33f52b1"
+  },
+  "nameAdmin": "Pedro Lopez",
+  "emailAdmin": "plopez-2019280@kinal.org.gt",
+  "passwordAdmin": "$2a$10$DR95XKeE9unRFj4rSft3J.1ZEifKJWkYXspEqJRUVBy8dVfC0SvE.",
+  "estadoAdmin": true,
+  "__v": 0
+}]

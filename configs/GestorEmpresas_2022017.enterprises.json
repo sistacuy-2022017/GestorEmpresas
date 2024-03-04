@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "65e411c7ea1077da3f1d2c53"
+  },
+  "nameEnterprise": "Asturiano46",
+  "levelImpact": "Medio",
+  "experienceYear": 3,
+  "categoryEnterprise": "Tecnología",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e411cfea1077da3f1d2c55"
+  },
+  "nameEnterprise": "Brueba34",
+  "levelImpact": "Medio",
+  "experienceYear": 2,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e411d3ea1077da3f1d2c57"
+  },
+  "nameEnterprise": "Arueba34",
+  "levelImpact": "Medio",
+  "experienceYear": 2,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e411daea1077da3f1d2c59"
+  },
+  "nameEnterprise": "Abrueba34",
+  "levelImpact": "Altito",
+  "experienceYear": 2,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e411e5ea1077da3f1d2c5b"
+  },
+  "nameEnterprise": "Acrueba34",
+  "levelImpact": "Bajito",
+  "experienceYear": 1,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e411eeea1077da3f1d2c5d"
+  },
+  "nameEnterprise": "Acdrueba35",
+  "levelImpact": "Bajito",
+  "experienceYear": 1,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e414c9c7817a2fbffe8cc4"
+  },
+  "nameEnterprise": "Acdrueba35",
+  "levelImpact": "Bajito",
+  "experienceYear": 1,
+  "categoryEnterprise": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e42486507deabe12625f2d"
+  },
+  "nameEnterprise": "Acdrueba36",
+  "levelImpact": "Bajito",
+  "experienceYear": 5,
+  "categoryEnterprise": "Comercio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e4249b507deabe12625f2f"
+  },
+  "nameEnterprise": "Acdrueba37",
+  "levelImpact": "Medio",
+  "experienceYear": 6,
+  "categoryEnterprise": "Finanzas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e424b2507deabe12625f31"
+  },
+  "nameEnterprise": "Acdrueba50",
+  "levelImpact": "Bajito",
+  "experienceYear": 7,
+  "categoryEnterprise": "Otro",
+  "__v": 0
+}]
